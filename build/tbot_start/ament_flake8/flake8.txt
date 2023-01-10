@@ -1,0 +1,37 @@
+-- run_test.py: invoking following command in '/home/bot/ros2_ws/pkg-tbot/tbot_start':
+ - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/flake8.xunit.xml
+
+
+./launch/bringup.launch.py:7:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./launch/bringup.launch.py:9:45: E231 missing whitespace after ','
+    kobuki_urdf = os.path.join(tbot_sim_path,'urdf', 'kobuki_standalone.urdf')
+                                            ^
+
+./launch/bringup.launch.py:43:17: E128 continuation line under-indented for visual indent
+                'robot_description': urdf}]),
+                ^
+
+./launch/move_launch.py:4:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+1     E128 continuation line under-indented for visual indent
+1     E231 missing whitespace after ','
+2     E302 expected 2 blank lines, found 1
+
+2 files checked
+4 errors
+
+'E'-type errors: 4
+
+Checked files:
+
+* ./launch/bringup.launch.py
+* ./launch/move_launch.py
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/flake8.xunit.xml'

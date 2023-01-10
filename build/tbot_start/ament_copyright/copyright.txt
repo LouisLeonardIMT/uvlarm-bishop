@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/bot/ros2_ws/pkg-tbot/tbot_start':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/copyright.xunit.xml
+
+launch/bringup.launch.py: could not find copyright notice
+launch/move_launch.py: could not find copyright notice
+2 errors, checked 2 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/copyright.xunit.xml'

@@ -1,0 +1,633 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+cachedir: /home/bot/ros2_ws/build/tbot_pytools/.pytest_cache
+rootdir: /home/bot/ros2_ws/pkg-tbot/tbot_pytools
+plugins: ament-copyright-0.9.7, ament-lint-0.9.7, ament-pep257-0.9.7, launch-testing-ros-0.11.7, launch-testing-0.10.10, ament-xmllint-0.9.7, ament-flake8-0.9.7, colcon-core-0.11.0, cov-2.8.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [31mF[0m[36m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[36m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________________ test_copyright ________________________________[0m
+[1m[31mtest/test_copyright.py[0m:23: in test_copyright
+[1m    assert rc == 0, 'Found errors'[0m
+[1m[31mE   AssertionError: Found errors[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stderr call -----------------------------
+tbot_pytools/multiplexer.py: could not find copyright notice
+tbot_pytools/reactive_move.py: could not find copyright notice
+2 errors, checked 6 files
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1m    assert rc == 0, \[0m
+[1m[31mE   AssertionError: Found 114 code style errors / warnings:[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:6:1: F401 'std_msgs.msg.String' imported but unused[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:10:11: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:11:11: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:12:11: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:13:12: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:15:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:20:34: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:21:23: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:22:32: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:25:19: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:26:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:28:23: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:29:30: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:30:14: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:31:13: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:32:40: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:33:52: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:34:23: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:35:25: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:36:25: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:36:44: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:36:50: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:37:25: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:38:46: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:38:53: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:39:18: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:40:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:41:15: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:41:18: E201 whitespace after '['[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:41:20: E201 whitespace after '['[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:41:49: E202 whitespace before ']'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:41:60: E271 multiple spaces after keyword[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:41:90: E202 whitespace before ']'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:42:32: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:42:84: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:43:42: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:43:57: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:47:43: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:49:23: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:54:14: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:55:21: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:57:21: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:58:22: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:59:41: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:60:77: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:61:31: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:62:34: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:63:21: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:64:33: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:65:37: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:65:41: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:66:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:67:27: W291 trailing whitespace[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:68:40: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:68:46: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:69:24: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:70:31: E201 whitespace after '['[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:70:54: E202 whitespace before ']'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:70:56: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:72:27: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:73:27: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:74:31: E201 whitespace after '['[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:74:54: E202 whitespace before ']'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:74:56: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:76:27: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:78:38: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:79:16: E111 indentation is not a multiple of four[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:79:16: E117 over-indented[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:80:16: E111 indentation is not a multiple of four[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:80:26: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:81:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:82:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:84:37: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:85:27: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:86:38: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:87:27: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:88:38: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:89:26: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:93:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:98:18: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:99:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./tbot_pytools/reactive_move.py:102:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:2:12: E401 multiple imports on one line[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:7:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:9:18: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:9:33: E251 unexpected spaces around keyword / parameter equals[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:9:100: E501 line too long (149 > 99 characters)[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:9:147: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:11:18: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:15:18: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:16:56: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:17:38: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:19:18: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:20:15: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:22:26: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:23:31: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:24:38: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:24:61: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:24:81: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:27:10: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:28:55: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:29:38: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:30:40: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:30:69: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:31:22: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:32:19: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:33:39: E203 whitespace before ':'[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:34:27: E201 whitespace after '('[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:34:34: E202 whitespace before ')'[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:37:13: E225 missing whitespace around operator[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:42:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:64:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:70:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./tbot_pytools/multiplexer.py:73:1: W293 blank line contains whitespace[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./tbot_pytools/reactive_move.py:6:1: F401 'std_msgs.msg.String' imported but unused
+from std_msgs.msg import String
+^
+
+./tbot_pytools/reactive_move.py:10:11: E225 missing whitespace around operator
+STATE_STOP= 0
+          ^
+
+./tbot_pytools/reactive_move.py:11:11: E225 missing whitespace around operator
+STATE_MOVE= 1
+          ^
+
+./tbot_pytools/reactive_move.py:12:11: E225 missing whitespace around operator
+STATE_LEFT= 2
+          ^
+
+./tbot_pytools/reactive_move.py:13:12: E225 missing whitespace around operator
+STATE_RIGHT= 3
+           ^
+
+./tbot_pytools/reactive_move.py:15:1: E302 expected 2 blank lines, found 1
+class ReactiveMoveNode(Node):
+^
+
+./tbot_pytools/reactive_move.py:20:34: E201 whitespace after '('
+        self.create_subscription( LaserScan, 'scan', self.scan_callback, 10)
+                                 ^
+
+./tbot_pytools/reactive_move.py:21:23: E225 missing whitespace around operator
+        self.obstacles= PointCloud()
+                      ^
+
+./tbot_pytools/reactive_move.py:22:32: E225 missing whitespace around operator
+        self.velocity_publisher= self.create_publisher(Twist, '/multi/cmd_nav', 10)
+                               ^
+
+./tbot_pytools/reactive_move.py:25:19: E225 missing whitespace around operator
+        self.state= STATE_STOP
+                  ^
+
+./tbot_pytools/reactive_move.py:26:1: W293 blank line contains whitespace
+    
+^
+
+./tbot_pytools/reactive_move.py:28:23: E225 missing whitespace around operator
+        self.obstacles= PointCloud()
+                      ^
+
+./tbot_pytools/reactive_move.py:29:30: E225 missing whitespace around operator
+        self.obstacles.header= scanMsg.header
+                             ^
+
+./tbot_pytools/reactive_move.py:30:14: E225 missing whitespace around operator
+        angle= scanMsg.angle_min
+             ^
+
+./tbot_pytools/reactive_move.py:31:13: E225 missing whitespace around operator
+        zero= (float)(0)
+            ^
+
+./tbot_pytools/reactive_move.py:32:40: E203 whitespace before ':'
+        for aDistance in scanMsg.ranges :
+                                       ^
+
+./tbot_pytools/reactive_move.py:33:52: E203 whitespace before ':'
+            if 0.1 < aDistance and aDistance < 10.0 :
+                                                   ^
+
+./tbot_pytools/reactive_move.py:34:23: E225 missing whitespace around operator
+                aPoint= Point32()
+                      ^
+
+./tbot_pytools/reactive_move.py:35:25: E225 missing whitespace around operator
+                aPoint.x= (float)(math.cos(angle) * aDistance)
+                        ^
+
+./tbot_pytools/reactive_move.py:36:25: E225 missing whitespace around operator
+                aPoint.y= (float)(math.sin( angle ) * aDistance)
+                        ^
+
+./tbot_pytools/reactive_move.py:36:44: E201 whitespace after '('
+                aPoint.y= (float)(math.sin( angle ) * aDistance)
+                                           ^
+
+./tbot_pytools/reactive_move.py:36:50: E202 whitespace before ')'
+                aPoint.y= (float)(math.sin( angle ) * aDistance)
+                                                 ^
+
+./tbot_pytools/reactive_move.py:37:25: E225 missing whitespace around operator
+                aPoint.z= zero
+                        ^
+
+./tbot_pytools/reactive_move.py:38:46: E201 whitespace after '('
+                self.obstacles.points.append( aPoint )
+                                             ^
+
+./tbot_pytools/reactive_move.py:38:53: E202 whitespace before ')'
+                self.obstacles.points.append( aPoint )
+                                                    ^
+
+./tbot_pytools/reactive_move.py:39:18: E225 missing whitespace around operator
+            angle+= scanMsg.angle_increment
+                 ^
+
+./tbot_pytools/reactive_move.py:40:1: W293 blank line contains whitespace
+        
+^
+
+./tbot_pytools/reactive_move.py:41:15: E225 missing whitespace around operator
+        sample= [ [ round(p.x, 2), round(p.y, 2) ] for p in  self.obstacles.points[10:15] ]
+              ^
+
+./tbot_pytools/reactive_move.py:41:18: E201 whitespace after '['
+        sample= [ [ round(p.x, 2), round(p.y, 2) ] for p in  self.obstacles.points[10:15] ]
+                 ^
+
+./tbot_pytools/reactive_move.py:41:20: E201 whitespace after '['
+        sample= [ [ round(p.x, 2), round(p.y, 2) ] for p in  self.obstacles.points[10:15] ]
+                   ^
+
+./tbot_pytools/reactive_move.py:41:49: E202 whitespace before ']'
+        sample= [ [ round(p.x, 2), round(p.y, 2) ] for p in  self.obstacles.points[10:15] ]
+                                                ^
+
+./tbot_pytools/reactive_move.py:41:60: E271 multiple spaces after keyword
+        sample= [ [ round(p.x, 2), round(p.y, 2) ] for p in  self.obstacles.points[10:15] ]
+                                                           ^
+
+./tbot_pytools/reactive_move.py:41:90: E202 whitespace before ']'
+        sample= [ [ round(p.x, 2), round(p.y, 2) ] for p in  self.obstacles.points[10:15] ]
+                                                                                         ^
+
+./tbot_pytools/reactive_move.py:42:32: E201 whitespace after '('
+        self.get_logger().info( f" pc({len(self.obstacles.points)}) ...{sample}..." )
+                               ^
+
+./tbot_pytools/reactive_move.py:42:84: E202 whitespace before ')'
+        self.get_logger().info( f" pc({len(self.obstacles.points)}) ...{sample}..." )
+                                                                                   ^
+
+./tbot_pytools/reactive_move.py:43:42: E201 whitespace after '('
+        self.obstacles_publisher.publish( self.obstacles )
+                                         ^
+
+./tbot_pytools/reactive_move.py:43:57: E202 whitespace before ')'
+        self.obstacles_publisher.publish( self.obstacles )
+                                                        ^
+
+./tbot_pytools/reactive_move.py:47:43: E203 whitespace before ':'
+        if len(self.obstacles.points) == 0 :
+                                          ^
+
+./tbot_pytools/reactive_move.py:49:23: E225 missing whitespace around operator
+            self.state= STATE_STOP
+                      ^
+
+./tbot_pytools/reactive_move.py:54:14: E225 missing whitespace around operator
+        focus= PointCloud()
+             ^
+
+./tbot_pytools/reactive_move.py:55:21: E225 missing whitespace around operator
+        focus.header= self.obstacles.header
+                    ^
+
+./tbot_pytools/reactive_move.py:57:21: E225 missing whitespace around operator
+        obstacleLeft= False
+                    ^
+
+./tbot_pytools/reactive_move.py:58:22: E225 missing whitespace around operator
+        obstacleRight= False
+                     ^
+
+./tbot_pytools/reactive_move.py:59:41: E203 whitespace before ':'
+        for obs in self.obstacles.points :
+                                        ^
+
+./tbot_pytools/reactive_move.py:60:77: E203 whitespace before ':'
+            if 0.01 < obs.x and obs.x < 1.0 and -0.4 < obs.y and obs.y < 0.4 :
+                                                                            ^
+
+./tbot_pytools/reactive_move.py:61:31: E203 whitespace before ':'
+                if obs.y < 0.0 :
+                              ^
+
+./tbot_pytools/reactive_move.py:62:34: E225 missing whitespace around operator
+                    obstacleRight= True
+                                 ^
+
+./tbot_pytools/reactive_move.py:63:21: E203 whitespace before ':'
+                else :
+                    ^
+
+./tbot_pytools/reactive_move.py:64:33: E225 missing whitespace around operator
+                    obstacleLeft= True
+                                ^
+
+./tbot_pytools/reactive_move.py:65:37: E201 whitespace after '('
+                focus.points.append( obs )
+                                    ^
+
+./tbot_pytools/reactive_move.py:65:41: E202 whitespace before ')'
+                focus.points.append( obs )
+                                        ^
+
+./tbot_pytools/reactive_move.py:66:1: W293 blank line contains whitespace
+        
+^
+
+./tbot_pytools/reactive_move.py:67:27: W291 trailing whitespace
+        # State estimation 
+                          ^
+
+./tbot_pytools/reactive_move.py:68:40: E201 whitespace after '('
+        self.control_publisher.publish( focus )
+                                       ^
+
+./tbot_pytools/reactive_move.py:68:46: E202 whitespace before ')'
+        self.control_publisher.publish( focus )
+                                             ^
+
+./tbot_pytools/reactive_move.py:69:24: E203 whitespace before ':'
+        if obstacleLeft :
+                       ^
+
+./tbot_pytools/reactive_move.py:70:31: E201 whitespace after '['
+            if self.state in [ STATE_STOP, STATE_MOVE ] :
+                              ^
+
+./tbot_pytools/reactive_move.py:70:54: E202 whitespace before ']'
+            if self.state in [ STATE_STOP, STATE_MOVE ] :
+                                                     ^
+
+./tbot_pytools/reactive_move.py:70:56: E203 whitespace before ':'
+            if self.state in [ STATE_STOP, STATE_MOVE ] :
+                                                       ^
+
+./tbot_pytools/reactive_move.py:72:27: E225 missing whitespace around operator
+                self.state= STATE_RIGHT
+                          ^
+
+./tbot_pytools/reactive_move.py:73:27: E203 whitespace before ':'
+        elif obstacleRight :
+                          ^
+
+./tbot_pytools/reactive_move.py:74:31: E201 whitespace after '['
+            if self.state in [ STATE_STOP, STATE_MOVE ] :
+                              ^
+
+./tbot_pytools/reactive_move.py:74:54: E202 whitespace before ']'
+            if self.state in [ STATE_STOP, STATE_MOVE ] :
+                                                     ^
+
+./tbot_pytools/reactive_move.py:74:56: E203 whitespace before ':'
+            if self.state in [ STATE_STOP, STATE_MOVE ] :
+                                                       ^
+
+./tbot_pytools/reactive_move.py:76:27: E225 missing whitespace around operator
+                self.state= STATE_LEFT
+                          ^
+
+./tbot_pytools/reactive_move.py:78:38: E203 whitespace before ':'
+        elif self.state != STATE_MOVE :
+                                     ^
+
+./tbot_pytools/reactive_move.py:79:16: E111 indentation is not a multiple of four
+               print("move move move")
+               ^
+
+./tbot_pytools/reactive_move.py:79:16: E117 over-indented
+               print("move move move")
+               ^
+
+./tbot_pytools/reactive_move.py:80:16: E111 indentation is not a multiple of four
+               self.state= STATE_MOVE
+               ^
+
+./tbot_pytools/reactive_move.py:80:26: E225 missing whitespace around operator
+               self.state= STATE_MOVE
+                         ^
+
+./tbot_pytools/reactive_move.py:81:1: W293 blank line contains whitespace
+        
+^
+
+./tbot_pytools/reactive_move.py:82:9: E265 block comment should start with '# '
+        #Control
+        ^
+
+./tbot_pytools/reactive_move.py:84:37: E203 whitespace before ':'
+        if self.state == STATE_RIGHT :
+                                    ^
+
+./tbot_pytools/reactive_move.py:85:27: E225 missing whitespace around operator
+            velo.angular.z= (float)(-1.0)
+                          ^
+
+./tbot_pytools/reactive_move.py:86:38: E203 whitespace before ':'
+        elif self.state == STATE_LEFT :
+                                     ^
+
+./tbot_pytools/reactive_move.py:87:27: E225 missing whitespace around operator
+            velo.angular.z= (float)(1.0)
+                          ^
+
+./tbot_pytools/reactive_move.py:88:38: E203 whitespace before ':'
+        elif self.state == STATE_MOVE :
+                                     ^
+
+./tbot_pytools/reactive_move.py:89:26: E225 missing whitespace around operator
+            velo.linear.x= (float)(0.1)
+                         ^
+
+./tbot_pytools/reactive_move.py:93:1: E302 expected 2 blank lines, found 1
+def move(args=None):
+^
+
+./tbot_pytools/reactive_move.py:98:18: E225 missing whitespace around operator
+    scanInterpret= ReactiveMoveNode()
+                 ^
+
+./tbot_pytools/reactive_move.py:99:1: W293 blank line contains whitespace
+    
+^
+
+./tbot_pytools/reactive_move.py:102:1: W293 blank line contains whitespace
+    
+^
+
+./tbot_pytools/multiplexer.py:2:12: E401 multiple imports on one line
+import time, rclpy
+           ^
+
+./tbot_pytools/multiplexer.py:7:1: E302 expected 2 blank lines, found 1
+class Multiplexer(Node):
+^
+
+./tbot_pytools/multiplexer.py:9:18: E201 whitespace after '('
+    def __init__( self, MsgType= Twist, inTopics=['/multi/cmd_nav', '/multi/cmd_teleop'], outTopics=['/cmd_vel', '/mobile_base/commands/velocity'] ):
+                 ^
+
+./tbot_pytools/multiplexer.py:9:33: E251 unexpected spaces around keyword / parameter equals
+    def __init__( self, MsgType= Twist, inTopics=['/multi/cmd_nav', '/multi/cmd_teleop'], outTopics=['/cmd_vel', '/mobile_base/commands/velocity'] ):
+                                ^
+
+./tbot_pytools/multiplexer.py:9:100: E501 line too long (149 > 99 characters)
+    def __init__( self, MsgType= Twist, inTopics=['/multi/cmd_nav', '/multi/cmd_teleop'], outTopics=['/cmd_vel', '/mobile_base/commands/velocity'] ):
+                                                                                                   ^
+
+./tbot_pytools/multiplexer.py:9:147: E202 whitespace before ')'
+    def __init__( self, MsgType= Twist, inTopics=['/multi/cmd_nav', '/multi/cmd_teleop'], outTopics=['/cmd_vel', '/mobile_base/commands/velocity'] ):
+                                                                                                                                                  ^
+
+./tbot_pytools/multiplexer.py:11:18: E225 missing whitespace around operator
+        callbacks= [
+                 ^
+
+./tbot_pytools/multiplexer.py:15:18: E225 missing whitespace around operator
+        callbacks= callbacks[:len(inTopics)]
+                 ^
+
+./tbot_pytools/multiplexer.py:16:56: E203 whitespace before ':'
+        for topic, callback in zip(inTopics, callbacks) :
+                                                       ^
+
+./tbot_pytools/multiplexer.py:17:38: E201 whitespace after '('
+            self.create_subscription( MsgType, topic, callback, 10)
+                                     ^
+
+./tbot_pytools/multiplexer.py:19:18: E225 missing whitespace around operator
+        self.hand= 0
+                 ^
+
+./tbot_pytools/multiplexer.py:20:15: E225 missing whitespace around operator
+        self.t= time.time()
+              ^
+
+./tbot_pytools/multiplexer.py:22:26: E225 missing whitespace around operator
+        self.myPublishers= []
+                         ^
+
+./tbot_pytools/multiplexer.py:23:31: E203 whitespace before ':'
+        for topic in outTopics :
+                              ^
+
+./tbot_pytools/multiplexer.py:24:38: E201 whitespace after '('
+            self.myPublishers.append( self.create_publisher( MsgType, topic, 10) )
+                                     ^
+
+./tbot_pytools/multiplexer.py:24:61: E201 whitespace after '('
+            self.myPublishers.append( self.create_publisher( MsgType, topic, 10) )
+                                                            ^
+
+./tbot_pytools/multiplexer.py:24:81: E202 whitespace before ')'
+            self.myPublishers.append( self.create_publisher( MsgType, topic, 10) )
+                                                                                ^
+
+./tbot_pytools/multiplexer.py:27:10: E225 missing whitespace around operator
+        t= time.time()
+         ^
+
+./tbot_pytools/multiplexer.py:28:55: E203 whitespace before ':'
+        if prevalence >= self.hand or t - self.t > 1.0 :
+                                                      ^
+
+./tbot_pytools/multiplexer.py:29:38: E203 whitespace before ':'
+            if prevalence > self.hand :
+                                     ^
+
+./tbot_pytools/multiplexer.py:30:40: E201 whitespace after '('
+                self.get_logger().info( f"Get cmd from {prevalence}" )
+                                       ^
+
+./tbot_pytools/multiplexer.py:30:69: E202 whitespace before ')'
+                self.get_logger().info( f"Get cmd from {prevalence}" )
+                                                                    ^
+
+./tbot_pytools/multiplexer.py:31:22: E225 missing whitespace around operator
+            self.hand= prevalence
+                     ^
+
+./tbot_pytools/multiplexer.py:32:19: E225 missing whitespace around operator
+            self.t= t
+                  ^
+
+./tbot_pytools/multiplexer.py:33:39: E203 whitespace before ':'
+            for p in self.myPublishers :
+                                      ^
+
+./tbot_pytools/multiplexer.py:34:27: E201 whitespace after '('
+                p.publish( cmdMsg )
+                          ^
+
+./tbot_pytools/multiplexer.py:34:34: E202 whitespace before ')'
+                p.publish( cmdMsg )
+                                 ^
+
+./tbot_pytools/multiplexer.py:37:13: E225 missing whitespace around operator
+        velo= Twist()
+            ^
+
+./tbot_pytools/multiplexer.py:42:1: W293 blank line contains whitespace
+    
+^
+
+./tbot_pytools/multiplexer.py:64:1: E302 expected 2 blank lines, found 1
+def multiplexer(args=None):
+^
+
+./tbot_pytools/multiplexer.py:70:1: W293 blank line contains whitespace
+    
+^
+
+./tbot_pytools/multiplexer.py:73:1: W293 blank line contains whitespace
+    
+^
+
+2     E111 indentation is not a multiple of four
+1     E117 over-indented
+17    E201 whitespace after '('
+14    E202 whitespace before ')'
+20    E203 whitespace before ':'
+40    E225 missing whitespace around operator
+1     E251 unexpected spaces around keyword / parameter equals
+1     E265 block comment should start with '# '
+1     E271 multiple spaces after keyword
+4     E302 expected 2 blank lines, found 1
+1     E401 multiple imports on one line
+1     E501 line too long (149 > 99 characters)
+1     F401 'std_msgs.msg.String' imported but unused
+1     W291 trailing whitespace
+9     W293 blank line contains whitespace
+
+7 files checked
+114 errors
+
+'E'-type errors: 103
+'F'-type errors: 1
+'W'-type errors: 10
+
+Checked files:
+
+* ./setup.py
+* ./tbot_pytools/__init__.py
+* ./tbot_pytools/reactive_move.py
+* ./tbot_pytools/multiplexer.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+----- generated xml file: /home/bot/ros2_ws/build/tbot_pytools/pytest.xml ------
+[31m[1m================ 2 failed, 1 passed, 1 warnings in 0.16 seconds ================[0m

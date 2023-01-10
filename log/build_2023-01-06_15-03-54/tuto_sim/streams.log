@@ -1,0 +1,23 @@
+[0.542s] Invoking command in '/home/bot/ros2_ws/tuto_sim': PYTHONPATH=/home/bot/ros2_ws/build/tuto_sim/prefix_override:/home/bot/ros2_ws/install/tuto_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tuto_sim build --build-base /home/bot/ros2_ws/build/tuto_sim/build install --record /home/bot/ros2_ws/build/tuto_sim/install.log --install-scripts $base/lib/tuto_sim --single-version-externally-managed
+[0.655s] running egg_info
+[0.656s] writing ../build/tuto_sim/tuto_sim.egg-info/PKG-INFO
+[0.656s] writing dependency_links to ../build/tuto_sim/tuto_sim.egg-info/dependency_links.txt
+[0.656s] writing entry points to ../build/tuto_sim/tuto_sim.egg-info/entry_points.txt
+[0.656s] writing requirements to ../build/tuto_sim/tuto_sim.egg-info/requires.txt
+[0.656s] writing top-level names to ../build/tuto_sim/tuto_sim.egg-info/top_level.txt
+[0.675s] reading manifest file '../build/tuto_sim/tuto_sim.egg-info/SOURCES.txt'
+[0.675s] writing manifest file '../build/tuto_sim/tuto_sim.egg-info/SOURCES.txt'
+[0.676s] running build
+[0.676s] running build_py
+[0.676s] running install
+[0.676s] running install_lib
+[0.677s] running install_data
+[0.677s] copying launch/tuto-sim-launch.py -> /home/bot/ros2_ws/install/tuto_sim/share/tuto_sim
+[0.677s] running install_egg_info
+[0.678s] removing '/home/bot/ros2_ws/install/tuto_sim/lib/python3.8/site-packages/tuto_sim-0.0.0-py3.8.egg-info' (and everything under it)
+[0.678s] Copying ../build/tuto_sim/tuto_sim.egg-info to /home/bot/ros2_ws/install/tuto_sim/lib/python3.8/site-packages/tuto_sim-0.0.0-py3.8.egg-info
+[0.678s] running install_scripts
+[0.688s] Installing multiplexer script to /home/bot/ros2_ws/install/tuto_sim/lib/tuto_sim
+[0.688s] Installing rmove script to /home/bot/ros2_ws/install/tuto_sim/lib/tuto_sim
+[0.688s] writing list of installed files to '/home/bot/ros2_ws/build/tuto_sim/install.log'
+[0.703s] Invoked command in '/home/bot/ros2_ws/tuto_sim' returned '0': PYTHONPATH=/home/bot/ros2_ws/build/tuto_sim/prefix_override:/home/bot/ros2_ws/install/tuto_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tuto_sim build --build-base /home/bot/ros2_ws/build/tuto_sim/build install --record /home/bot/ros2_ws/build/tuto_sim/install.log --install-scripts $base/lib/tuto_sim --single-version-externally-managed

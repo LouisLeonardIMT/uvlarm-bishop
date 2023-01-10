@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/tbot_pytools/tbot_pytools.egg-info
+writing ../../build/tbot_pytools/tbot_pytools.egg-info/PKG-INFO
+writing dependency_links to ../../build/tbot_pytools/tbot_pytools.egg-info/dependency_links.txt
+writing entry points to ../../build/tbot_pytools/tbot_pytools.egg-info/entry_points.txt
+writing requirements to ../../build/tbot_pytools/tbot_pytools.egg-info/requires.txt
+writing top-level names to ../../build/tbot_pytools/tbot_pytools.egg-info/top_level.txt
+writing manifest file '../../build/tbot_pytools/tbot_pytools.egg-info/SOURCES.txt'
+reading manifest file '../../build/tbot_pytools/tbot_pytools.egg-info/SOURCES.txt'
+writing manifest file '../../build/tbot_pytools/tbot_pytools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bot/ros2_ws/build/tbot_pytools/build
+creating /home/bot/ros2_ws/build/tbot_pytools/build/lib
+creating /home/bot/ros2_ws/build/tbot_pytools/build/lib/tbot_pytools
+copying tbot_pytools/__init__.py -> /home/bot/ros2_ws/build/tbot_pytools/build/lib/tbot_pytools
+copying tbot_pytools/multiplexer.py -> /home/bot/ros2_ws/build/tbot_pytools/build/lib/tbot_pytools
+running install
+running install_lib
+creating /home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools
+copying /home/bot/ros2_ws/build/tbot_pytools/build/lib/tbot_pytools/__init__.py -> /home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools
+copying /home/bot/ros2_ws/build/tbot_pytools/build/lib/tbot_pytools/multiplexer.py -> /home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools
+byte-compiling /home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools/multiplexer.py to multiplexer.cpython-38.pyc
+running install_data
+creating /home/bot/ros2_ws/install/tbot_pytools/share/ament_index
+creating /home/bot/ros2_ws/install/tbot_pytools/share/ament_index/resource_index
+creating /home/bot/ros2_ws/install/tbot_pytools/share/ament_index/resource_index/packages
+copying resource/tbot_pytools -> /home/bot/ros2_ws/install/tbot_pytools/share/ament_index/resource_index/packages
+copying package.xml -> /home/bot/ros2_ws/install/tbot_pytools/share/tbot_pytools
+running install_egg_info
+Copying ../../build/tbot_pytools/tbot_pytools.egg-info to /home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools-0.0.0-py3.8.egg-info
+running install_scripts
+Installing multiplexer script to /home/bot/ros2_ws/install/tbot_pytools/lib/tbot_pytools
+writing list of installed files to '/home/bot/ros2_ws/build/tbot_pytools/install.log'

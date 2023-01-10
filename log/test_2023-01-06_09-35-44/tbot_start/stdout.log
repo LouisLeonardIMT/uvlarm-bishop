@@ -1,0 +1,123 @@
+UpdateCTestConfiguration  from :/home/bot/ros2_ws/build/tbot_start/CTestConfiguration.ini
+Parse Config file:/home/bot/ros2_ws/build/tbot_start/CTestConfiguration.ini
+   Site: bishop
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+Create new tag: 20230106-0835 - Experimental
+UpdateCTestConfiguration  from :/home/bot/ros2_ws/build/tbot_start/CTestConfiguration.ini
+Parse Config file:/home/bot/ros2_ws/build/tbot_start/CTestConfiguration.ini
+Test project /home/bot/ros2_ws/build/tbot_start
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: copyright
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/copyright.xunit.xml" "--package-name" "tbot_start" "--output-file" "/home/bot/ros2_ws/build/tbot_start/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/copyright.xunit.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/bot/ros2_ws/pkg-tbot/tbot_start':
+1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/copyright.xunit.xml
+1: launch/bringup.launch.py: could not find copyright notice
+1: launch/move_launch.py: could not find copyright notice
+1: 2 errors, checked 2 files
+1: -- run_test.py: return code 1
+1: -- run_test.py: verify result file '/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/copyright.xunit.xml'
+1/5 Test #1: copyright ........................***Failed    0.15 sec
+test 2
+    Start 2: flake8
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/flake8.xunit.xml" "--package-name" "tbot_start" "--output-file" "/home/bot/ros2_ws/build/tbot_start/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/flake8.xunit.xml"
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/bot/ros2_ws/pkg-tbot/tbot_start':
+2:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/flake8.xunit.xml
+2: 
+2: ./launch/bringup.launch.py:7:1: E302 expected 2 blank lines, found 1
+2: def generate_launch_description():
+2: ^
+2: 
+2: ./launch/bringup.launch.py:9:45: E231 missing whitespace after ','
+2:     kobuki_urdf = os.path.join(tbot_sim_path,'urdf', 'kobuki_standalone.urdf')
+2:                                             ^
+2: 
+2: ./launch/bringup.launch.py:43:17: E128 continuation line under-indented for visual indent
+2:                 'robot_description': urdf}]),
+2:                 ^
+2: 
+2: ./launch/move_launch.py:4:1: E302 expected 2 blank lines, found 1
+2: def generate_launch_description():
+2: ^
+2: 
+2: 1     E128 continuation line under-indented for visual indent
+2: 1     E231 missing whitespace after ','
+2: 2     E302 expected 2 blank lines, found 1
+2: 
+2: 2 files checked
+2: 4 errors
+2: 
+2: 'E'-type errors: 4
+2: 
+2: Checked files:
+2: 
+2: * ./launch/bringup.launch.py
+2: * ./launch/move_launch.py
+2: -- run_test.py: return code 1
+2: -- run_test.py: verify result file '/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/flake8.xunit.xml'
+2/5 Test #2: flake8 ...........................***Failed    0.22 sec
+test 3
+    Start 3: lint_cmake
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/lint_cmake.xunit.xml" "--package-name" "tbot_start" "--output-file" "/home/bot/ros2_ws/build/tbot_start/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/lint_cmake.xunit.xml"
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/bot/ros2_ws/pkg-tbot/tbot_start':
+3:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/lint_cmake.xunit.xml
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/lint_cmake.xunit.xml'
+3/5 Test #3: lint_cmake .......................   Passed    0.15 sec
+test 4
+    Start 4: pep257
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/pep257.xunit.xml" "--package-name" "tbot_start" "--output-file" "/home/bot/ros2_ws/build/tbot_start/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/pep257.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/bot/ros2_ws/pkg-tbot/tbot_start':
+4:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/pep257.xunit.xml
+4: checking ./launch/bringup.launch.py
+4: checking ./launch/move_launch.py
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/pep257.xunit.xml'
+4/5 Test #4: pep257 ...........................   Passed    0.19 sec
+test 5
+    Start 5: xmllint
+
+5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/xmllint.xunit.xml" "--package-name" "tbot_start" "--output-file" "/home/bot/ros2_ws/build/tbot_start/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/xmllint.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/bot/ros2_ws/pkg-tbot/tbot_start':
+5:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/xmllint.xunit.xml
+5: File 'package.xml' is valid
+5: 
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/xmllint.xunit.xml'
+5/5 Test #5: xmllint ..........................   Passed    1.16 sec
+
+60% tests passed[0;0m, [0;31m2 tests failed[0;0m out of 5
+
+Label Time Summary:
+copyright     =   0.15 sec*proc (1 test)
+flake8        =   0.22 sec*proc (1 test)
+lint_cmake    =   0.15 sec*proc (1 test)
+linter        =   1.86 sec*proc (5 tests)
+pep257        =   0.19 sec*proc (1 test)
+xmllint       =   1.16 sec*proc (1 test)
+
+Total Test time (real) =   1.86 sec
+
+The following tests FAILED:
+	[0;31m  1 - copyright (Failed)[0;0m
+	[0;31m  2 - flake8 (Failed)[0;0m

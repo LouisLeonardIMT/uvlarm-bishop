@@ -1,0 +1,80 @@
+[0.061s] Invoking command in '/home/bot/ros2_ws/build/kobuki_bumper2pc': AMENT_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:/home/bot/ros2_ws/install/turtlesim:/home/bot/ros2_ws/install/tbot_start:/home/bot/ros2_ws/install/tbot_sim:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bot/ros2_ws/kobuki_ros/kobuki_bumper2pc -DCMAKE_INSTALL_PREFIX=/home/bot/ros2_ws/install/kobuki_bumper2pc
+[0.094s] -- The C compiler identification is GNU 9.4.0
+[0.132s] -- The CXX compiler identification is GNU 9.4.0
+[0.135s] -- Check for working C compiler: /usr/bin/cc
+[0.179s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.180s] -- Detecting C compiler ABI info
+[0.222s] -- Detecting C compiler ABI info - done
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.286s] -- Detecting CXX compiler ABI info
+[0.343s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Detecting CXX compile features
+[0.351s] -- Detecting CXX compile features - done
+[0.353s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.376s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.376s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.538s] -- Found kobuki_ros_interfaces: 1.0.0 (/home/bot/ros2_ws/install/kobuki_ros_interfaces/share/kobuki_ros_interfaces/cmake)
+[0.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.616s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.655s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.704s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rcl_interfaces: 1.0.0 (/opt/ros/foxy/share/rcl_interfaces/cmake)
+[0.825s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.844s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.844s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.845s] -- Looking for pthread.h
+[0.888s] -- Looking for pthread.h - found
+[0.888s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.934s] -- Looking for pthread_create in pthreads
+[0.969s] -- Looking for pthread_create in pthreads - not found
+[0.969s] -- Looking for pthread_create in pthread
+[1.014s] -- Looking for pthread_create in pthread - found
+[1.015s] -- Found Threads: TRUE  
+[1.140s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.181s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.295s] -- Configuring done
+[1.306s] -- Generating done
+[1.307s] -- Build files have been written to: /home/bot/ros2_ws/build/kobuki_bumper2pc
+[1.314s] Invoked command in '/home/bot/ros2_ws/build/kobuki_bumper2pc' returned '0': AMENT_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:/home/bot/ros2_ws/install/turtlesim:/home/bot/ros2_ws/install/tbot_start:/home/bot/ros2_ws/install/tbot_sim:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bot/ros2_ws/kobuki_ros/kobuki_bumper2pc -DCMAKE_INSTALL_PREFIX=/home/bot/ros2_ws/install/kobuki_bumper2pc
+[1.316s] Invoking command in '/home/bot/ros2_ws/build/kobuki_bumper2pc': AMENT_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:/home/bot/ros2_ws/install/turtlesim:/home/bot/ros2_ws/install/tbot_start:/home/bot/ros2_ws/install/tbot_sim:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bot/ros2_ws/build/kobuki_bumper2pc -- -j16 -l16
+[1.341s] [35m[1mScanning dependencies of target kobuki_bumper2pc_node[0m
+[1.343s] [35m[1mScanning dependencies of target kobuki_bumper2pc[0m
+[1.362s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc_node.dir/rclcpp_components/node_main_kobuki_bumper2pc_node.cpp.o[0m
+[1.379s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc.dir/src/kobuki_bumper2pc.cpp.o[0m
+[3.250s] [ 75%] [32m[1mLinking CXX executable kobuki_bumper2pc_node[0m
+[3.396s] [ 75%] Built target kobuki_bumper2pc_node
+[6.935s] [100%] [32m[1mLinking CXX shared library libkobuki_bumper2pc.so[0m
+[7.154s] [100%] Built target kobuki_bumper2pc
+[7.164s] Invoked command in '/home/bot/ros2_ws/build/kobuki_bumper2pc' returned '0': AMENT_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:/home/bot/ros2_ws/install/turtlesim:/home/bot/ros2_ws/install/tbot_start:/home/bot/ros2_ws/install/tbot_sim:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bot/ros2_ws/build/kobuki_bumper2pc -- -j16 -l16
+[7.182s] Invoking command in '/home/bot/ros2_ws/build/kobuki_bumper2pc': AMENT_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:/home/bot/ros2_ws/install/turtlesim:/home/bot/ros2_ws/install/tbot_start:/home/bot/ros2_ws/install/tbot_sim:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bot/ros2_ws/build/kobuki_bumper2pc
+[7.187s] -- Install configuration: ""
+[7.188s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node
+[7.188s] -- Set runtime path of "/home/bot/ros2_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node" to ""
+[7.188s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so
+[7.191s] -- Set runtime path of "/home/bot/ros2_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so" to ""
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/parent_prefix_path/kobuki_bumper2pc
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.sh
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.dsv
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.sh
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.dsv
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.bash
+[7.191s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.sh
+[7.192s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.zsh
+[7.192s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.dsv
+[7.192s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.dsv
+[7.192s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/packages/kobuki_bumper2pc
+[7.192s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/rclcpp_components/kobuki_bumper2pc
+[7.192s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+[7.192s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+[7.192s] -- Installing: /home/bot/ros2_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.xml
+[7.195s] Invoked command in '/home/bot/ros2_ws/build/kobuki_bumper2pc' returned '0': AMENT_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces:/home/bot/ros2_ws/install/turtlesim:/home/bot/ros2_ws/install/tbot_start:/home/bot/ros2_ws/install/tbot_sim:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bot/ros2_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bot/ros2_ws/build/kobuki_bumper2pc

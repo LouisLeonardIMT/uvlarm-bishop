@@ -1,0 +1,25 @@
+[0.436s] Invoking command in '/home/bot/ros2_ws/pkg-tbot/tbot_pytools': PYTHONPATH=/home/bot/ros2_ws/build/tbot_pytools/prefix_override:/home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tbot_pytools build --build-base /home/bot/ros2_ws/build/tbot_pytools/build install --record /home/bot/ros2_ws/build/tbot_pytools/install.log --install-scripts $base/lib/tbot_pytools --single-version-externally-managed
+[0.554s] running egg_info
+[0.554s] writing ../../build/tbot_pytools/tbot_pytools.egg-info/PKG-INFO
+[0.555s] writing dependency_links to ../../build/tbot_pytools/tbot_pytools.egg-info/dependency_links.txt
+[0.555s] writing entry points to ../../build/tbot_pytools/tbot_pytools.egg-info/entry_points.txt
+[0.555s] writing requirements to ../../build/tbot_pytools/tbot_pytools.egg-info/requires.txt
+[0.555s] writing top-level names to ../../build/tbot_pytools/tbot_pytools.egg-info/top_level.txt
+[0.576s] reading manifest file '../../build/tbot_pytools/tbot_pytools.egg-info/SOURCES.txt'
+[0.576s] writing manifest file '../../build/tbot_pytools/tbot_pytools.egg-info/SOURCES.txt'
+[0.576s] running build
+[0.576s] running build_py
+[0.578s] copying tbot_pytools/reactive_move.py -> /home/bot/ros2_ws/build/tbot_pytools/build/lib/tbot_pytools
+[0.578s] running install
+[0.578s] running install_lib
+[0.579s] copying /home/bot/ros2_ws/build/tbot_pytools/build/lib/tbot_pytools/reactive_move.py -> /home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools
+[0.580s] byte-compiling /home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools/reactive_move.py to reactive_move.cpython-38.pyc
+[0.581s] running install_data
+[0.581s] running install_egg_info
+[0.582s] removing '/home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools-0.0.0-py3.8.egg-info' (and everything under it)
+[0.582s] Copying ../../build/tbot_pytools/tbot_pytools.egg-info to /home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages/tbot_pytools-0.0.0-py3.8.egg-info
+[0.583s] running install_scripts
+[0.592s] Installing multiplexer script to /home/bot/ros2_ws/install/tbot_pytools/lib/tbot_pytools
+[0.592s] Installing rmove script to /home/bot/ros2_ws/install/tbot_pytools/lib/tbot_pytools
+[0.593s] writing list of installed files to '/home/bot/ros2_ws/build/tbot_pytools/install.log'
+[0.605s] Invoked command in '/home/bot/ros2_ws/pkg-tbot/tbot_pytools' returned '0': PYTHONPATH=/home/bot/ros2_ws/build/tbot_pytools/prefix_override:/home/bot/ros2_ws/install/tbot_pytools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tbot_pytools build --build-base /home/bot/ros2_ws/build/tbot_pytools/build install --record /home/bot/ros2_ws/build/tbot_pytools/install.log --install-scripts $base/lib/tbot_pytools --single-version-externally-managed

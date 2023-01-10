@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/bot/ros2_ws/pkg-tbot/tbot_start':
+ - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bot/ros2_ws/build/tbot_start/test_results/tbot_start/lint_cmake.xunit.xml'

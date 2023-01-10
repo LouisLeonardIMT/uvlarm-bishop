@@ -1,0 +1,6 @@
+source;share/tbot_pytools/hook/pythonpath.ps1
+source;share/tbot_pytools/hook/pythonpath.dsv
+source;share/tbot_pytools/hook/pythonpath.sh
+source;share/tbot_pytools/hook/ament_prefix_path.ps1
+source;share/tbot_pytools/hook/ament_prefix_path.dsv
+source;share/tbot_pytools/hook/ament_prefix_path.sh

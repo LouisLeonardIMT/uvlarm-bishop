@@ -1,0 +1,4 @@
+[console_scripts]
+multiplexer = tbot_pytools.multiplexer:multiplexer
+rmove = tbot_pytools.reactive_move:move
+

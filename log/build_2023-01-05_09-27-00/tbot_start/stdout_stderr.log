@@ -1,0 +1,31 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bot/ros2_ws/build/tbot_start
+-- Install configuration: ""
+-- Installing: /home/bot/ros2_ws/install/tbot_start/lib/tbot_start/start_base
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start//launch
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start//launch/move_launch.py
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/ament_index/resource_index/package_run_dependencies/tbot_start
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/ament_index/resource_index/parent_prefix_path/tbot_start
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/environment/ament_prefix_path.sh
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/environment/ament_prefix_path.dsv
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/environment/path.sh
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/environment/path.dsv
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/local_setup.bash
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/local_setup.sh
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/local_setup.zsh
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/local_setup.dsv
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/package.dsv
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/ament_index/resource_index/packages/tbot_start
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/cmake/tbot_startConfig.cmake
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/cmake/tbot_startConfig-version.cmake
+-- Installing: /home/bot/ros2_ws/install/tbot_start/share/tbot_start/package.xml
