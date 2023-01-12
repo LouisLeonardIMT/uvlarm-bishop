@@ -1,2 +1,0 @@
-Invoking command in '/home/bot/ros2_ws/build/tbot_start': CMAKE_PREFIX_PATH=/home/bot/ros2_ws/install/tbot_start:/home/bot/ros2_ws/install/turtlesim /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
-Invoked command in '/home/bot/ros2_ws/build/tbot_start' returned '8': CMAKE_PREFIX_PATH=/home/bot/ros2_ws/install/tbot_start:/home/bot/ros2_ws/install/turtlesim /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,4 +1,0 @@
-Invoking command in '/home/bot/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy /usr/bin/cmake --build /home/bot/ros2_ws/build/turtlesim -- -j16 -l16
-Invoked command in '/home/bot/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy /usr/bin/cmake --build /home/bot/ros2_ws/build/turtlesim -- -j16 -l16
-Invoking command in '/home/bot/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy /usr/bin/cmake --install /home/bot/ros2_ws/build/turtlesim
-Invoked command in '/home/bot/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tbot_pytools:/opt/ros/foxy /usr/bin/cmake --install /home/bot/ros2_ws/build/turtlesim
