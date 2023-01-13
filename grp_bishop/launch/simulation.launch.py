@@ -24,12 +24,9 @@ def generate_launch_description():
             package='grp_bishop',
             executable='reactive_move',
             name='reactive',
-        ),
-
-        Node(
-            package='grp_bishop',
-            executable='move_node',
-            name='move',
+            remappings=[
+                ('/multi/cmd_nav','/cmd_vel')
+            ]
         )
             
         ]

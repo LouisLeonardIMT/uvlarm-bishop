@@ -6,7 +6,7 @@ class MoveNode(Node):
 
     def __init__(self):
         super().__init__('move')
-        self.velocity_publisher = self.create_publisher(Twist, '/multi/cmd_nav', 10)
+        self.velocity_publisher = self.create_publisher(Twist, '/cmd_vel', 10)
         self.timer = self.create_timer(0.1, self.activate) # 0.1 seconds to target a frequency of 10 hertz
 
     def activate(self):
