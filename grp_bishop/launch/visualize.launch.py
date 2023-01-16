@@ -12,13 +12,6 @@ def generate_launch_description():
 
 
     return LaunchDescription([
-        ExecuteProcess(
-            cmd=['ssh', '10.89.1.92'],
-        ),
-    
-        ExecuteProcess(
-            cmd=['bot'],
-        ),
 
         ExecuteProcess(
             cmd=['rviz2', '-d', rviz2_file_path], 
