@@ -1,0 +1,6 @@
+source;share/grp_bishop/hook/pythonpath.ps1
+source;share/grp_bishop/hook/pythonpath.dsv
+source;share/grp_bishop/hook/pythonpath.sh
+source;share/grp_bishop/hook/ament_prefix_path.ps1
+source;share/grp_bishop/hook/ament_prefix_path.dsv
+source;share/grp_bishop/hook/ament_prefix_path.sh

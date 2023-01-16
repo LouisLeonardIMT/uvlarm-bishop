@@ -1,0 +1,4 @@
+[console_scripts]
+move_node = grp_bishop.move_node:main
+reactive_move = grp_bishop.reactive_move:move
+

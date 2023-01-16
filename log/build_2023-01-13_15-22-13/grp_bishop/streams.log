@@ -1,0 +1,43 @@
+[0.427s] Invoking command in '/home/bot/ros2_ws/larm-bishop/grp_bishop': PYTHONPATH=/home/bot/ros2_ws/larm-bishop/build/grp_bishop/prefix_override:/home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/grp_bishop build --build-base /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build install --record /home/bot/ros2_ws/larm-bishop/build/grp_bishop/install.log --install-scripts $base/lib/grp_bishop --single-version-externally-managed
+[0.562s] running egg_info
+[0.562s] creating ../build/grp_bishop/grp_bishop.egg-info
+[0.562s] writing ../build/grp_bishop/grp_bishop.egg-info/PKG-INFO
+[0.562s] writing dependency_links to ../build/grp_bishop/grp_bishop.egg-info/dependency_links.txt
+[0.562s] writing entry points to ../build/grp_bishop/grp_bishop.egg-info/entry_points.txt
+[0.562s] writing requirements to ../build/grp_bishop/grp_bishop.egg-info/requires.txt
+[0.562s] writing top-level names to ../build/grp_bishop/grp_bishop.egg-info/top_level.txt
+[0.563s] writing manifest file '../build/grp_bishop/grp_bishop.egg-info/SOURCES.txt'
+[0.583s] reading manifest file '../build/grp_bishop/grp_bishop.egg-info/SOURCES.txt'
+[0.583s] writing manifest file '../build/grp_bishop/grp_bishop.egg-info/SOURCES.txt'
+[0.583s] running build
+[0.583s] running build_py
+[0.583s] creating /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build
+[0.583s] creating /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build/lib
+[0.583s] creating /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build/lib/grp_bishop
+[0.583s] copying grp_bishop/__init__.py -> /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build/lib/grp_bishop
+[0.583s] copying grp_bishop/move_node.py -> /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build/lib/grp_bishop
+[0.583s] copying grp_bishop/reactive_move.py -> /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build/lib/grp_bishop
+[0.584s] running install
+[0.584s] running install_lib
+[0.584s] creating /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages/grp_bishop
+[0.584s] copying /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build/lib/grp_bishop/__init__.py -> /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages/grp_bishop
+[0.584s] copying /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build/lib/grp_bishop/move_node.py -> /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages/grp_bishop
+[0.584s] copying /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build/lib/grp_bishop/reactive_move.py -> /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages/grp_bishop
+[0.585s] byte-compiling /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages/grp_bishop/__init__.py to __init__.cpython-38.pyc
+[0.585s] byte-compiling /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages/grp_bishop/move_node.py to move_node.cpython-38.pyc
+[0.585s] byte-compiling /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages/grp_bishop/reactive_move.py to reactive_move.cpython-38.pyc
+[0.586s] running install_data
+[0.586s] creating /home/bot/ros2_ws/larm-bishop/install/grp_bishop/share/ament_index
+[0.586s] creating /home/bot/ros2_ws/larm-bishop/install/grp_bishop/share/ament_index/resource_index
+[0.586s] creating /home/bot/ros2_ws/larm-bishop/install/grp_bishop/share/ament_index/resource_index/packages
+[0.586s] copying resource/grp_bishop -> /home/bot/ros2_ws/larm-bishop/install/grp_bishop/share/ament_index/resource_index/packages
+[0.586s] copying package.xml -> /home/bot/ros2_ws/larm-bishop/install/grp_bishop/share/grp_bishop
+[0.586s] copying launch/simulation.launch.py -> /home/bot/ros2_ws/larm-bishop/install/grp_bishop/share/grp_bishop
+[0.587s] copying launch/test2-launch.py -> /home/bot/ros2_ws/larm-bishop/install/grp_bishop/share/grp_bishop
+[0.587s] running install_egg_info
+[0.587s] Copying ../build/grp_bishop/grp_bishop.egg-info to /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages/grp_bishop-0.0.0-py3.8.egg-info
+[0.588s] running install_scripts
+[0.598s] Installing move_node script to /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/grp_bishop
+[0.598s] Installing reactive_move script to /home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/grp_bishop
+[0.598s] writing list of installed files to '/home/bot/ros2_ws/larm-bishop/build/grp_bishop/install.log'
+[0.610s] Invoked command in '/home/bot/ros2_ws/larm-bishop/grp_bishop' returned '0': PYTHONPATH=/home/bot/ros2_ws/larm-bishop/build/grp_bishop/prefix_override:/home/bot/ros2_ws/larm-bishop/install/grp_bishop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/grp_bishop build --build-base /home/bot/ros2_ws/larm-bishop/build/grp_bishop/build install --record /home/bot/ros2_ws/larm-bishop/build/grp_bishop/install.log --install-scripts $base/lib/grp_bishop --single-version-externally-managed

@@ -1,0 +1,46 @@
+[0.157s] Invoking command in '/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/home/bot/ros2_ws/install/grp_bishop:/opt/ros/foxy /usr/bin/cmake /home/bot/ros2_ws/larm-bishop/my_amasing_pkg -DCMAKE_INSTALL_PREFIX=/home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg
+[0.210s] -- The C compiler identification is GNU 9.4.0
+[0.253s] -- The CXX compiler identification is GNU 9.4.0
+[0.256s] -- Check for working C compiler: /usr/bin/cc
+[0.297s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.297s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.344s] -- Detecting C compile features
+[0.344s] -- Detecting C compile features - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.393s] -- Detecting CXX compiler ABI info
+[0.444s] -- Detecting CXX compiler ABI info - done
+[0.456s] -- Detecting CXX compile features
+[0.457s] -- Detecting CXX compile features - done
+[0.460s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.478s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.478s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.595s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.676s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.678s] -- Added test 'lint_cmake' to check CMake code style
+[0.679s] -- Added test 'xmllint' to check XML markup files
+[0.682s] -- Configuring done
+[0.683s] -- Generating done
+[0.684s] -- Build files have been written to: /home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg
+[0.687s] Invoked command in '/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/home/bot/ros2_ws/install/grp_bishop:/opt/ros/foxy /usr/bin/cmake /home/bot/ros2_ws/larm-bishop/my_amasing_pkg -DCMAKE_INSTALL_PREFIX=/home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg
+[0.688s] Invoking command in '/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/home/bot/ros2_ws/install/grp_bishop:/opt/ros/foxy /usr/bin/cmake --build /home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg -- -j16 -l16
+[0.722s] Invoked command in '/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/home/bot/ros2_ws/install/grp_bishop:/opt/ros/foxy /usr/bin/cmake --build /home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg -- -j16 -l16
+[0.779s] Invoking command in '/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/home/bot/ros2_ws/install/grp_bishop:/opt/ros/foxy /usr/bin/cmake --install /home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg
+[0.792s] -- Install configuration: ""
+[0.792s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/ament_index/resource_index/package_run_dependencies/my_amasing_pkg
+[0.793s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/ament_index/resource_index/parent_prefix_path/my_amasing_pkg
+[0.793s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/environment/ament_prefix_path.sh
+[0.793s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/environment/ament_prefix_path.dsv
+[0.793s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/environment/path.sh
+[0.793s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/environment/path.dsv
+[0.793s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/local_setup.bash
+[0.794s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/local_setup.sh
+[0.794s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/local_setup.zsh
+[0.794s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/local_setup.dsv
+[0.794s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/package.dsv
+[0.794s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/ament_index/resource_index/packages/my_amasing_pkg
+[0.794s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/cmake/my_amasing_pkgConfig.cmake
+[0.795s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/cmake/my_amasing_pkgConfig-version.cmake
+[0.795s] -- Installing: /home/bot/ros2_ws/larm-bishop/install/my_amasing_pkg/share/my_amasing_pkg/package.xml
+[0.798s] Invoked command in '/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bot/ros2_ws/install/tuto_sim:/home/bot/ros2_ws/install/tbot_pytools:/home/bot/ros2_ws/install/grp_bishop:/opt/ros/foxy /usr/bin/cmake --install /home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg

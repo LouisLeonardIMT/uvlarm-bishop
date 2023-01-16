@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+05bac670a2c96ab94631caa93f36cf88 CMakeFiles/my_amasing_pkg_uninstall
