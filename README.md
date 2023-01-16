@@ -14,7 +14,7 @@ Le but du challenge 1 est de permettre au robot de se déplacer au sein de l'are
 
 Pour lancer la simulation :
 `ros2 launch grp_bishop simulation.launch.py`
-Ceci démarre gazebo, rvizz et le déplacement du robot dans l'arena.
+Ceci démarre gazebo, rvizz et le déplacement du robot dans l'arena simulée.
 
 Pour lancer le turtle bot :
 `ros2 launch grp_bishop tbot.launch.py`
