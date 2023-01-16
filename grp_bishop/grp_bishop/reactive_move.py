@@ -30,7 +30,7 @@ class ReactiveMoveNode(Node):
         angle= scanMsg.angle_min
         zero= (float)(0)
         for aDistance in scanMsg.ranges :
-            if 0.1 < aDistance and aDistance < 10.0 :
+            if 0.1 < aDistance and aDistance < 20.0 :
                 aPoint= Point32()
                 aPoint.x= (float)(math.cos(angle) * aDistance)
                 aPoint.y= (float)(math.sin( angle ) * aDistance)

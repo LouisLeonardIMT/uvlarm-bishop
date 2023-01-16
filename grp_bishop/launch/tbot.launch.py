@@ -7,26 +7,20 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    tbot_sim_path = get_package_share_directory('tbot_sim')
-    launch_file_dir = os.path.join(tbot_sim_path, 'launch')
-    rviz2_file_path = '/home/bot/ros2_ws/larm-bishop/grp_bishop/rvizz_config/config_tuto_sim.rviz'
+    tbot_start_path = get_package_share_directory('tbot_start')
+    launch_file_dir = os.path.join(tbot_start_path, 'launch')
 
     return LaunchDescription([
+        #Launch Bot+Laser
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([launch_file_dir, '/challenge-1.launch.py']),
+            PythonLaunchDescriptionSource([launch_file_dir, '/minimal.launch.py']),
             ),
-            
-        ExecuteProcess(
-            cmd=['rviz2', '-d', rviz2_file_path], 
-                output='screen'),
-        
+
+        #Launch reactive_move
         Node(
             package='grp_bishop',
             executable='reactive_move',
             name='reactive',
-            remappings=[
-                ('/multi/cmd_nav','/cmd_vel')
-            ]
         )
             
         ]
