@@ -57,7 +57,7 @@ class ReactiveMoveNode(Node):
         obstacleLeft= False
         obstacleRight= False
         for obs in self.obstacles.points :
-            if 0.01 < obs.x and obs.x < 1.0 and -0.7 < obs.y and obs.y < 0.7 :
+            if 0.01 < obs.x and obs.x < 0.2 and -0.4 < obs.y and obs.y < 0.4 :
                 if obs.y < 0.0 :
                     obstacleRight= True
                 else :
