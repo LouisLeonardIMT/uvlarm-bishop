@@ -1,7 +1,7 @@
 # uvlarm-bishop
 
 ### Description :
-Dépot de notre projet de l'UV LARM (Logiciels et Architecture pour la Robotique Mobile)
+Dépot de notre projet de l'UV LARM (Logiciels et Architecture pour la Robotique Mobile). Ce package dépend de mb-tbot6. Il faut s'assurer avant utilsation qu'il soit correctement installé sur la machine.
 
 ### Auteurs :
 Louis LEONARD et Mehdi ABBASSI
