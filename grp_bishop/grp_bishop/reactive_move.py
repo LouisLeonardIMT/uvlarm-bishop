@@ -57,7 +57,7 @@ class ReactiveMoveNode(Node):
         obstacleLeft= False
         obstacleRight= False
         for obs in self.obstacles.points :
-            if 0.01 < obs.x and obs.x < 0.2 and -0.4 < obs.y and obs.y < 0.4 :
+            if 0.01 < obs.x and obs.x < 0.2 and -0.2 < obs.y and obs.y < 0.2 :
                 if obs.y < 0.0 :
                     obstacleRight= True
                 else :
@@ -86,7 +86,7 @@ class ReactiveMoveNode(Node):
         elif self.state == STATE_LEFT :
             velo.angular.z= (float)(1.0)
         elif self.state == STATE_MOVE :
-            velo.linear.x= (float)(0.5)
+            velo.linear.x= (float)(0.1)
 
         self.velocity_publisher.publish(velo)
 

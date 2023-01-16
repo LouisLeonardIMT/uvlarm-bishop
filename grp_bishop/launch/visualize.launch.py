@@ -9,7 +9,17 @@ def generate_launch_description():
 
     rviz2_file_path = '/home/bot/ros2_ws/larm-bishop/grp_bishop/rvizz_config/config_tuto_sim.rviz'
 
+
+
     return LaunchDescription([
+        ExecuteProcess(
+            cmd=['ssh', '10.89.1.92'],
+        ),
+    
+        ExecuteProcess(
+            cmd=['bot'],
+        ),
+
         ExecuteProcess(
             cmd=['rviz2', '-d', rviz2_file_path], 
                 output='screen'),
@@ -23,7 +33,6 @@ def generate_launch_description():
                 ('/cmd_vel', '/multi/cmd_teleop')
             ]    
         )
-           
+
         ]
     )
-
