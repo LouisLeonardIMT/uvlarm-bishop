@@ -86,7 +86,7 @@ class ReactiveMoveNode(Node):
         elif self.state == STATE_LEFT :
             velo.angular.z= (float)(1.0)
         elif self.state == STATE_MOVE :
-            velo.linear.x= (float)(0.1)
+            velo.linear.x= (float)(0.3)
 
         self.velocity_publisher.publish(velo)
 
