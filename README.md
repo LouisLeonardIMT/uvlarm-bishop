@@ -1,7 +1,7 @@
 # uvlarm-bishop
 
 ### Description :
-Dépot de notre projet de l'UV LARM (Logiciels et Architecture pour la Robotique mobile)
+Dépot de notre projet de l'UV LARM (Logiciels et Architecture pour la Robotique Mobile)
 
 ### Auteurs :
 Louis LEONARD et Mehdi ABBASSI
