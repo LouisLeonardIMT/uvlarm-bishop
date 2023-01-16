@@ -13,9 +13,11 @@ def generate_launch_description():
 
     return LaunchDescription([
 
-        ExecuteProcess(
-            cmd=['rviz2', '-d', rviz2_file_path], 
-                output='screen'),
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            arguments=['-d', rviz2_file_path]
+        ), 
         
         Node(
             package='teleop_twist_keyboard',

@@ -82,7 +82,7 @@ class ReactiveMoveNode(Node):
         #Control
         velo = Twist()
         if self.state == STATE_RIGHT :
-            velo.angular.z= (float)(1.0)
+            velo.angular.z= (float)(-1.0)
         elif self.state == STATE_LEFT :
             velo.angular.z= (float)(1.0)
         elif self.state == STATE_MOVE :
