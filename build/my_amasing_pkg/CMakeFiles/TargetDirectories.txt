@@ -1,9 +1,0 @@
-/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg/CMakeFiles/install/strip.dir
-/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg/CMakeFiles/install/local.dir
-/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg/CMakeFiles/install.dir
-/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg/CMakeFiles/list_install_components.dir
-/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg/CMakeFiles/rebuild_cache.dir
-/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg/CMakeFiles/edit_cache.dir
-/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg/CMakeFiles/test.dir
-/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg/CMakeFiles/my_amasing_pkg_uninstall.dir
-/home/bot/ros2_ws/larm-bishop/build/my_amasing_pkg/CMakeFiles/uninstall.dir
