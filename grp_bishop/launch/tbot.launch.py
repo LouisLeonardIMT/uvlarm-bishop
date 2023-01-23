@@ -17,11 +17,23 @@ def generate_launch_description():
             ),
 
         #Launch reactive_move
+        #Node(
+        #    package='grp_bishop',
+        #    executable='reactive_move',
+        #    name='reactive',
+        #),
+            
         Node(
             package='grp_bishop',
-            executable='reactive_move',
-            name='reactive',
+            executable='realsense',
+            name='realsense'
+        ),
+
+        Node(
+            package='grp_bishop',
+            executable='bouteille_detect',
+            name='bouteille_detect'
         )
-            
+
         ]
     )

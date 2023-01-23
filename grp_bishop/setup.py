@@ -24,7 +24,9 @@ setup(
     entry_points={
         'console_scripts': [
             'reactive_move = grp_bishop.reactive_move:move',
-            'move_node = grp_bishop.move_node:main'
+            'move_node = grp_bishop.move_node:main',
+            'realsense =  grp_bishop.realsense:process_img',
+            'bouteille_detect = grp_bishop.bouteille_detect:main'
         ],
     },
 )
