@@ -11,6 +11,7 @@ def generate_launch_description():
     launch_tbot_file_dir = os.path.join(tbot_start_path, 'launch')
     slam_toolbox_path = get_package_share_directory('slam_toolbox')
     launch_slam_file_dir = os.path.join(slam_toolbox_path, 'launch')
+    rviz2_file_path = '/home/bot/ros2_ws/larm-bishop/grp_bishop/rvizz_config/config_mapping.rviz'
 
     return LaunchDescription([
         #Launch Bot+Laser
@@ -25,12 +26,18 @@ def generate_launch_description():
             }.items()
             ),
 
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            arguments=['-d', rviz2_file_path]
+            ), 
+
         #Launch reactive_move
-        #Node(
-        #    package='grp_bishop',
-        #    executable='reactive_move',
-        #    name='reactive',
-        #),
+        Node(
+            package='grp_bishop',
+            executable='reactive_move',
+            name='reactive',
+        ),
 
         #Launch realsense    
         Node(
