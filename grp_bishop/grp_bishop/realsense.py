@@ -37,7 +37,7 @@ class Realsense(Node):
         
         self.processedImgPublisher = self.create_publisher( Image, 'procsd_img', 10)
         self.maskImgPublisher = self.create_publisher( Image, 'mask_img', 10)
-        self.colaDetectPublisher = self.create_publisher( Point, 'cola_detect', 10)
+        self.bouteilleDetectPublisher = self.create_publisher( Point, 'bouteille_detect', 10)
         
         self.point = Point()
         self.canPublish = False

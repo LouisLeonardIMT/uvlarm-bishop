@@ -1,7 +1,6 @@
 #!python3
 import math
 import rclpy
-import random
 from rclpy.node import Node
 
 from std_msgs.msg import String
@@ -87,7 +86,7 @@ class ReactiveMoveNode(Node):
         elif self.state == STATE_LEFT :
             velo.angular.z= (float)(1.0)
         elif self.state == STATE_MOVE :
-            velo.linear.x= (float)(0.3)
+            velo.linear.x= (float)(0.2)
 
         self.velocity_publisher.publish(velo)
 
