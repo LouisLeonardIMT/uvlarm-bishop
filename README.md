@@ -51,3 +51,7 @@ Ceci initialise le robot ainsi que le lidar et la caméra. Le robot se déplace 
 Enfin, pour la visualisation sur un pc auxiliaire lié au premier pc : 
 `ros2 launch grp_bishop visualize.launch.py`
 Ceci démarre rviz2 ainsi qu'un nouveau terminal permettant de prendre le contrôle du robot si l'opérateur le souhaite.
+
+### TODO :
+- réduire laser range
+- publish bottle detect (ros2 topic echo bouteille_detect)
