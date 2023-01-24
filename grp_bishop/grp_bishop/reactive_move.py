@@ -1,6 +1,7 @@
 #!python3
 import math
 import rclpy
+import random
 from rclpy.node import Node
 
 from std_msgs.msg import String

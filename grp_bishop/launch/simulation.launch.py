@@ -8,22 +8,26 @@ from launch_ros.actions import Node
 def generate_launch_description():
 
     tbot_sim_path = get_package_share_directory('tbot_sim')
-    launch_file_dir = os.path.join(tbot_sim_path, 'launch')
+    launch_tbot_file_dir = os.path.join(tbot_sim_path, 'launch')
     rviz2_file_path = '/home/bot/ros2_ws/larm-bishop/grp_bishop/rvizz_config/config_mapping.rviz'
 
     return LaunchDescription([
+        #Launch la simulation du challenge1
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([launch_file_dir, '/challenge-1.launch.py']),
+            PythonLaunchDescriptionSource([launch_tbot_file_dir, '/challenge-1.launch.py']),
             ),
 
+        #Execute les process SLAM
         ExecuteProcess(
             cmd=['ros2', 'launch', 'slam_toolbox', 'online_sync_launch.py', 'use_sim_time:=False']
         ),
 
+        #Launch Rviz2
         ExecuteProcess(
             cmd=['rviz2', '-d', rviz2_file_path], 
                 output='screen'),
         
+        #Launch reactive_move
         Node(
             package='grp_bishop',
             executable='reactive_move',

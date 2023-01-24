@@ -7,9 +7,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    rviz2_file_path = '/home/bot/ros2_ws/larm-bishop/grp_bishop/rvizz_config/config_tuto_sim.rviz'
-
-
+    rviz2_file_path = '/home/bot/ros2_ws/larm-bishop/grp_bishop/rvizz_config/config_mapping.rviz'
 
     return LaunchDescription([
 
