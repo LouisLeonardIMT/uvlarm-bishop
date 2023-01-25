@@ -43,8 +43,8 @@ class Realsense(Node):
         self.canPublish = False
 
         self.lo=np.array([0, 145, 90])
-        self.hi=np.array([5, 215, 250])
-        self.lo2=np.array([170, 140, 140])
+        self.hi=np.array([5, 225, 250])
+        self.lo2=np.array([170, 140, 125])
         self.hi2=np.array([185, 210, 200])
         self.lo3=np.array([0, 0, 0])
         self.hi3=np.array([255, 255, 50])
@@ -102,9 +102,14 @@ class Realsense(Node):
         self.img_pub.publish(msg_image)
 
         msg_depth = self.bridge.cv2_to_imgmsg(depth_colormap,"bgr8")
+        msg_depth = self.bridge.cv2_to_imgmsg(self.depth_image,)
         msg_depth.header.stamp = msg_image.header.stamp
         msg_depth.header.frame_id = "camera_link"
         self.depth_pub.publish(msg_depth)
+
+        if self.canPublish :
+            self.bouteilleDetectPublisher.publish(self.point)
+            self.canPublish=False 
 
     def show_imgs(self):
         # Apply colormap on depth image (image must be converted to 8-bit per pixel first)
