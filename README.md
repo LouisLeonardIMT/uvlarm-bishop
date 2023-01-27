@@ -9,11 +9,11 @@ grp_bishop
 ## Dépendances
 pkg_tbot
 
-Créer votre workspace `mkdir` et cloner notre package à l'intérieur `clone` :
-`mkdir my_ws`
-`cd my_ws`
-Au besoin, utilisez le tutoriel ci-après https://ceri-num.gitbook.io/uv-larm/tuto.-01-kick-off/ros-basics pour installer le pkg-tbot (mb6-tbot) nécessaire.
-Puis cloner notre package dans votre workspace : 
+Créer votre workspace `mkdir` et cloner notre package à l'intérieur `clone` :  
+`mkdir my_ws`  
+`cd my_ws`  
+Au besoin, utilisez le tutoriel ci-après https://ceri-num.gitbook.io/uv-larm/tuto.-01-kick-off/ros-basics pour installer le pkg-tbot (mb6-tbot) nécessaire.  
+Puis cloner notre package dans votre workspace :  
 `git clone https://github.com/LouisLeonardIMT/uvlarm-bishop`
 
 ### Auteurs :
