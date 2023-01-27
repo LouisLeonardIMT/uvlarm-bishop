@@ -12,7 +12,7 @@ pkg_tbot
 Créer votre workspace `mkdir` et cloner notre package à l'intérieur `clone` :  
 `mkdir my_ws`  
 `cd my_ws`  
-Au besoin, utilisez le tutoriel ci-après https://ceri-num.gitbook.io/uv-larm/tuto.-01-kick-off/ros-basics pour installer le pkg-tbot (mb6-tbot) nécessaire.  
+Au besoin, utiliser le tutoriel ci-après https://ceri-num.gitbook.io/uv-larm/tuto.-01-kick-off/ros-basics pour installer le pkg-tbot (mb6-tbot) nécessaire.  
 Puis cloner notre package dans votre workspace :  
 `git clone https://github.com/LouisLeonardIMT/uvlarm-bishop`
 
@@ -53,9 +53,9 @@ Enfin, pour la visualisation sur un pc auxiliaire lié au premier pc :
 Ceci démarre rviz2 ainsi qu'un nouveau terminal permettant de prendre le contrôle du robot si l'opérateur le souhaite.
 
 ### Challenge 3 :
-Le but du challenge 3 est identique au challenge 2, avec en plus le placement de la bouteille détectée sur la carte créée par la méthode SLAM.
+Le but du challenge 3 est identique au challenge 2, avec en plus le placement de la bouteille détectée sur la carte créée par la méthode SLAM.  
 Cette partie du projet, inachevée, est une piste d'amélioration pour celles et ceux qui souhaitent reprendre le développement du projet.
 
 ### Autres pistes :
-Il serait intéressant d'apporter une part d'aléatoire dans le programme de déplacement du robot afin de s'assurer qu'il explore l'entiereté de l'arena. (`reactive_move.py`)
+Il serait intéressant d'apporter une part d'aléatoire dans le programme de déplacement du robot afin de s'assurer qu'il explore l'entiereté de l'arena. (`reactive_move.py`)  
 De plus, la détection ne se fait que sur les bouteilles de _Nuka Cola_. D'autres type de bouteilles pourraient être ajoutées au programme de détection au besoin (`realsense.py`)
