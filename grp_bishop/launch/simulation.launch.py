@@ -14,7 +14,7 @@ def generate_launch_description():
     return LaunchDescription([
         #Launch la simulation du challenge1
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([launch_tbot_file_dir, '/challenge-1.launch.py']),
+            PythonLaunchDescriptionSource([launch_tbot_file_dir, '/challenge-2.launch.py']),
             ),
 
         #Execute les process SLAM

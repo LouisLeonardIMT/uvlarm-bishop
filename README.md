@@ -4,7 +4,7 @@
 Dépot de notre projet de l'UV LARM (Logiciels et Architecture pour la Robotique Mobile). Ce package dépend de mb-tbot6. Il faut s'assurer avant utilsation qu'il soit correctement installé sur la machine.
 
 ### Package :
-pkg_data
+grp_bishop
 
 ## Dépendances
 pkg_tbot

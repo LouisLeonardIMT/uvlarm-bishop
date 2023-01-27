@@ -7,6 +7,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
+    #Paths need to be accurates, double check if something doesn't work    
     tbot_start_path = get_package_share_directory('tbot_start')
     launch_tbot_file_dir = os.path.join(tbot_start_path, 'launch')
     slam_toolbox_path = get_package_share_directory('slam_toolbox')
@@ -19,6 +20,7 @@ def generate_launch_description():
             PythonLaunchDescriptionSource([launch_tbot_file_dir, '/minimal.launch.py']),
             ),
 
+        #Launch SLAM
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([launch_slam_file_dir, '/online_sync_launch.py']),
             launch_arguments={
@@ -26,6 +28,7 @@ def generate_launch_description():
             }.items()
             ),
 
+        #Launch Rviz2 (optional if you use a linked auxiliary device)
         Node(
             package='rviz2',
             executable='rviz2',
@@ -33,11 +36,11 @@ def generate_launch_description():
             ), 
 
         #Launch reactive_move
-        #Node(
-        #    package='grp_bishop',
-        #    executable='reactive_move',
-        #    name='reactive',
-        #),
+        Node(
+            package='grp_bishop',
+            executable='reactive_move',
+            name='reactive',
+        ),
 
         #Launch realsense    
         Node(
