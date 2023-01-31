@@ -25,7 +25,7 @@ Bishop et Bubo
 ### Vidéo de présentation :
 https://www.youtube.com/watch?v=YinE02FuDrU
 
-### Challenge 1 :
+## Challenge 1 :
 Le but du challenge 1 est de permettre au robot de se déplacer au sein de l'arena en évitant les obstacles. Il est demandé de réaliser d'abord cela dans une simulation (de part l'utilisation de gazebo), puis avec le robot réel.
 
 Pour lancer la simulation :
@@ -40,7 +40,7 @@ Enfin, pour la visualisation sur un pc auxiliaire lié au premier pc :
 `ros2 launch grp_bishop visualize.launch.py`
 Ceci démarre rviz2 ainsi qu'un nouveau terminal permettant de prendre le contrôle du robot si l'opérateur le souhaite.
 
-### Challenge 2 :
+## Challenge 2 :
 Le but du challenge 2 est de permettre au robot de se déplacer au sein de l'arena en évitant les obstacles. Il doit également créer une carte par la méthode SLAM. Le robot avec l'aide de la caméra doit pouvoir détecter une bouteille. Il est demandé de réaliser d'abord cela dans une simulation (de part l'utilisation de gazebo), puis avec le robot réel.
 
 Pour lancer la simulation :
@@ -55,10 +55,10 @@ Enfin, pour la visualisation sur un pc auxiliaire lié au premier pc :
 `ros2 launch grp_bishop visualize.launch.py`
 Ceci démarre rviz2 ainsi qu'un nouveau terminal permettant de prendre le contrôle du robot si l'opérateur le souhaite.
 
-### Challenge 3 :
+## Challenge 3 :
 Le but du challenge 3 est identique au challenge 2, avec en plus le placement de la bouteille détectée sur la carte créée par la méthode SLAM.  
 Cette partie du projet, inachevée, est une piste d'amélioration pour celles et ceux qui souhaitent reprendre le développement du projet.
 
-### Autres pistes :
+## Autres pistes :
 Il serait intéressant d'apporter une part d'aléatoire dans le programme de déplacement du robot afin de s'assurer qu'il explore l'entiereté de l'arena. (`reactive_move.py`)  
 De plus, la détection ne se fait que sur les bouteilles de _Nuka Cola_. D'autres type de bouteilles pourraient être ajoutées au programme de détection au besoin (`realsense.py`)
