@@ -6,7 +6,7 @@ Dépot de notre projet de l'UV LARM (Logiciels et Architecture pour la Robotique
 ### Package :
 grp_bishop
 
-## Dépendances
+### Dépendances :
 pkg_tbot
 
 Créer votre workspace `mkdir` et cloner notre package à l'intérieur `clone` :  
