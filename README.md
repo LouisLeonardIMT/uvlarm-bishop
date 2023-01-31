@@ -22,6 +22,9 @@ Louis LEONARD et Mehdi ABBASSI
 ### Machines : 
 Bishop et Bubo
 
+### Vidéo de présentation :
+https://www.youtube.com/watch?v=YinE02FuDrU
+
 ### Challenge 1 :
 Le but du challenge 1 est de permettre au robot de se déplacer au sein de l'arena en évitant les obstacles. Il est demandé de réaliser d'abord cela dans une simulation (de part l'utilisation de gazebo), puis avec le robot réel.
 
